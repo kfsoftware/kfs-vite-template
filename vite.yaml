@@ -50,7 +50,7 @@ spec:
       name: Fetch Base
       action: fetch:cookiecutter
       input:
-        url: "."
+        url: "https://github.com/kfsoftware/kfs-vite-template"
         values:
           name: '{{parameters.name}}'
           component_id: '{{parameters.name}}'
@@ -64,7 +64,6 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: 'This is {{ parameters.name }}'
-        sourcePath: "."
         repoUrl: '{{ parameters.repoUrl }}'
 
     - id: vercel
