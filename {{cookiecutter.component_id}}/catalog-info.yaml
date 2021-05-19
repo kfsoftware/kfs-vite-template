@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: {{cookiecutter.component_id | jsonify}}
   description: {{cookiecutter.description | jsonify}}
-  annotations:
-    github.com/project-slug: {{cookiecutter.destination.owner + "/" + cookiecutter.destination.repo}}
+  annotations: {}
+    
 spec:
   type: website
   lifecycle: experimental
