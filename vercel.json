@@ -3,6 +3,10 @@
     "api/test.js": {
       "memory": 12,
       "maxDuration": 60
+    },
+    "api/date.py": {
+      "memory": 48,
+      "maxDuration": 60
     }
   }
 }
