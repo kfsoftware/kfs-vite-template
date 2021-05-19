@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/test.js": {
-      "memory": 3008,
+      "memory": 12,
       "maxDuration": 60
     }
   }
