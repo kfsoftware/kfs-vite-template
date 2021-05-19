@@ -21,6 +21,10 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
         owner:
           title: Owner
           type: string
@@ -49,6 +53,8 @@ spec:
         url: "."
         values:
           name: '{{parameters.name}}'
+          component_id: '{{parameters.name}}'
+          description: '{{parameters.description}}'
 
     - id: fetch-docs
       name: Fetch Docs
