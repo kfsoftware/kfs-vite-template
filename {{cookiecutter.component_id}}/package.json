@@ -1,5 +1,6 @@
 {
-  "name": "vite-template",
+  "name": "{{cookiecutter.name}}",
+  "description": "{{cookiecutter.description}}",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
