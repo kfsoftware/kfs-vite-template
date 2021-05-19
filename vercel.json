@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/test.js": {
+      "memory": 128,
+      "maxDuration": 60
+    },
+    "api/datego.go": {
+      "memory": 128,
+      "maxDuration": 60
+    },
+    "api/date.py": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  }
+}
