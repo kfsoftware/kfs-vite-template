@@ -16,3 +16,4 @@ jobs:
           vercel-org-id: "team_kQvFMUO2rT7FJx7OHPevyqju"  #Required
           vercel-project-id: "prj_glE0TFNOktF7RrFfBXe3Q5oRkHFh" #Required 
           working-directory: "."
+          scope: "team_kQvFMUO2rT7FJx7OHPevyqju"
