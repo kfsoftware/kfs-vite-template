@@ -50,7 +50,7 @@ spec:
       name: Fetch Base
       action: fetch:cookiecutter
       input:
-        url: "./template"
+        url: "."
         values:
           name: '{{parameters.name}}'
           component_id: '{{parameters.name}}'
@@ -58,19 +58,13 @@ spec:
           owner: '{{parameters.owner}}'
           destination: '{{ parseRepoUrl parameters.repoUrl }}'
 
-    - id: fetch-docs
-      name: Fetch Docs
-      action: fetch:plain
-      input:
-        targetPath: ./community
-        url: https://github.com/backstage/community/tree/main/backstage-community-sessions
-
     - id: publish
       name: Publish
       action: publish:github
       input:
         allowedHosts: ['github.com']
         description: 'This is {{ parameters.name }}'
+        sourcePath: "."
         repoUrl: '{{ parameters.repoUrl }}'
 
     - id: vercel
