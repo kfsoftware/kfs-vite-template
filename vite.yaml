@@ -50,7 +50,7 @@ spec:
       name: Fetch Base
       action: fetch:cookiecutter
       input:
-        url: "."
+        url: "./template"
         values:
           name: '{{parameters.name}}'
           component_id: '{{parameters.name}}'
