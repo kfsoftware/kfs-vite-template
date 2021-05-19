@@ -4,7 +4,7 @@ metadata:
   name: {{cookiecutter.component_id | jsonify}}
   description: {{cookiecutter.description | jsonify}}
   annotations:
-    github.com/project-slug: {{cookiecutter.destination.git.owner + "/" + cookiecutter.destination.git.name}}
+    github.com/project-slug: {{cookiecutter.destination.owner + "/" + cookiecutter.destination.name}}
 spec:
   type: website
   lifecycle: experimental
