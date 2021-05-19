@@ -13,6 +13,6 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
           vercel-args: '--prod' #Optional
-          vercel-org-id: "kfsoftware"  #Required
+          vercel-org-id: "team_kQvFMUO2rT7FJx7OHPevyqju"  #Required
           vercel-project-id: "prj_glE0TFNOktF7RrFfBXe3Q5oRkHFh" #Required 
           working-directory: "."
