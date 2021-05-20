@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import * as Sentry from "@sentry/react";
+
+Sentry.init({ dsn: "{{cookiecutter.sentryDsn}}" });
 
 function App() {
   const [count, setCount] = useState(0)

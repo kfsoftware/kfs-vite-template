@@ -3,7 +3,9 @@ kind: Component
 metadata:
   name: {{cookiecutter.component_id | jsonify}}
   description: {{cookiecutter.description | jsonify}}
-  annotations: {}
+  annotations: 
+    github.com/project-slug: {{cookiecutter.destination.git.owner + "/" + cookiecutter.destination.git.name}}
+    sentry.io/project-slug: {{cookiecutter.component_id | jsonify}}
     
 spec:
   type: website
